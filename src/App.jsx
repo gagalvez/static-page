@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Cards from "./components/Cards";
 import Contact from "./components/Contact";
 import Actions from "./components/Actions";
+import Testimonials from "./components/Testimonials";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Content />
       <SearchBar />
       <Cards />
+      <Testimonials />
       <Contact />
       <Actions />
       <Footer />

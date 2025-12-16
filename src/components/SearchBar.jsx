@@ -1,37 +1,33 @@
-import React from "react";
-
 const SearchBar = () => {
   return (
-    <div className="flex justify-center pt-17">
-      <div className="bg-white grid box-border p-12 shadow-[10px_10px_20px_rgba(0,0,0,0.1)] rounded-sm">
-        <div className="pb-8">
-          <h2 className="font-bold text-center text-xl text-emerald-900 p-4">
-            SEARCH FOR AVAILABLE PROPERTIES
+    <div className="flex justify-center px-6 py-16 md:py-20">
+      <div className="bg-white w-full max-w-6xl p-8 md:p-12 shadow-2xl rounded-2xl border border-gray-100">
+        <div className="mb-8">
+          <h2 className="font-bold text-center text-2xl md:text-3xl text-emerald-900">
+            DISCOVER YOUR DREAM PROPERTY
           </h2>
+          <p className="text-center text-gray-600 mt-2">Search thousands of listings to find your perfect match</p>
         </div>
-        <div className="flex justify-center gap-8 h-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
           <input
             type="text"
-            id="filter"
+            id="location"
             placeholder="Location"
-            className="text-center text-2xl"
+            className="px-6 py-4 text-lg border-2 border-gray-200 rounded-xl focus:border-emerald-900 focus:outline-none transition-colors duration-300"
           />
-          <div className="w-[1px] h-3xl bg-gray-400 rounded-xl"></div>
           <input
             type="text"
-            id="filter"
+            id="type"
             placeholder="Property Type"
-            className="text-center text-2xl"
+            className="px-6 py-4 text-lg border-2 border-gray-200 rounded-xl focus:border-emerald-900 focus:outline-none transition-colors duration-300"
           />
-          <div className="w-[1px] h-3xl bg-gray-400 rounded-xl"></div>
           <input
             type="text"
-            id="filter"
+            id="budget"
             placeholder="Budget"
-            className="text-center text-2xl"
+            className="px-6 py-4 text-lg border-2 border-gray-200 rounded-xl focus:border-emerald-900 focus:outline-none transition-colors duration-300"
           />
-          <div className="w-[1px] h-3xl bg-gray-400 rounded-xl"></div>
-          <button className="flex justify-center items-center w-35 bg-emerald-900 p-6 text-white font-bold rounded-lg align-middle hover:scale-105 transition-transform duration-300 ease-out">
+          <button className="w-full bg-emerald-900 py-4 px-6 text-white font-bold rounded-xl shadow-md hover:bg-emerald-800 hover:shadow-xl hover:scale-105 transition-all duration-300">
             Search
           </button>
         </div>
