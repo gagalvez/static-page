@@ -6,7 +6,7 @@ const SearchBar = () => {
           <h2 className="font-bold text-center text-2xl md:text-3xl text-emerald-900">
             DISCOVER YOUR DREAM PROPERTY
           </h2>
-          <p className="text-center text-gray-600 mt-2">Search thousands of listings to find your perfect match</p>
+          <p className="text-center text-gray-600 mt-2">Search thousands of listings to find your perfect match.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
           <input
